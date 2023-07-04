@@ -1,0 +1,31 @@
+.cabecalho{
+    margin-top: 10px;
+    margin-left: 30%;
+}
+
+td,tr {
+    display: flex;
+    width: 100px;
+    height: auto;
+    margin-bottom: 5px;
+   
+}
+
+#tabela{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    margin-left: 10px;
+    }
+
+.disciplina{
+    width: 100px;
+    padding: 1px;
+    justify-content: center;
+}
+
+input{
+    outline: 0;
+}

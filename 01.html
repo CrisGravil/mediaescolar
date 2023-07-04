@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Notas</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    
+
+</head>
+<body>
+    <h1 class="cabecalho"> <strong>Calculadora Aprovado Reprovado</strong></h1>
+
+            
+            <div id="tabela">
+                
+                <div id="Materias">
+                 <p><strong>Informe as notas das matérias:</strong></p>
+                </div>
+
+             <div class="materia">
+                
+
+                <table>
+                    <tr>
+                        <td>
+                            <label for="Portugues" class="disciplina">Portugues</label> 
+                        </td>
+                        <td>
+                            <input type="number" id="Port1" class="input" placeholder=" Nota P1">
+                        </td>
+                        
+                        <td>
+                            <input type="number" id="Port2" class="input" placeholder=" Nota P2">
+                        </td>
+
+                        <td>
+                            <p id="res"></p>
+                        </td>
+                    </tr>
+                </table>
+                </div>
+
+                <div class="materia">
+                
+                <table>
+                    <tr>
+                        <td>
+                            <label for="Matematica" class="disciplina" >Matematica</label> 
+                        </td>
+                        <td>
+                            <input type="number" id="Mat1" class="input" placeholder=" Nota P1">
+                        </td>
+                        
+                        <td>
+                            <input type="number" id="Mat2" class="input" placeholder=" Nota P2">
+                        </td>
+
+                        <td>
+                            <p id="res1"></p>
+                        </td>
+                    </tr>
+
+                </table>
+                 </div>
+
+            <div class="materia">
+                
+                <table>
+                    <tr>
+                        <td>
+                            <label for="Geografia" class="disciplina">Geografia</label> 
+                        </td>
+                        <td>
+                            <input type="number" id="Geo1" class="input" placeholder=" Nota P1">
+                        </td>
+                        
+                        <td>
+                            <input type="number" id="Geo2" class="input" placeholder=" Nota P2">
+                        </td>
+
+                        <td>
+                            <p id="res2"></p>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+
+            <div class="materia">
+                
+                <table>
+                    <tr>
+                        <td>
+                            <label for="Historia" class="disciplina">Historia</label> 
+                        </td>
+                        <td>
+                            <input type="number" id="Hist1" class="input" placeholder=" Nota P1">
+                        </td>
+                        
+                        <td>
+                            <input type="number" id="Hist2" class="input" placeholder=" Nota P2">
+                        </td>
+
+                        <td>
+                            <p id="res3"></p>
+                        </td>
+                    </tr>
+
+
+                </table>
+            </div>
+    
+        </div>
+    </div>
+    <input type="button" value="Media" onclick="somar()">
+    <p id="media"></p>
+    <p id="Resultado"></p>
+    
+
+
+    <script src="./java.js"></script>
+</body>
+</html>
